@@ -1,0 +1,24 @@
+{
+  "name": "cucumber-with-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./test/config/protractor.config.js",
+    "postinstall": "webdriver-manager update"
+  },
+  "keywords": [
+    "BDD"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.1.2",
+    "cucumber": "^6.0.7",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^9.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.20.1"
+  }
+}
